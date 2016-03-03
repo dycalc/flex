@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 
 function handleError(err) {
-  consele.log(err.toString());
+  console.log(err.toString());
   this.emit('end');
 }
 
